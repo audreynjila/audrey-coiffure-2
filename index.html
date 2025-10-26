@@ -142,3 +142,44 @@
 </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie GitHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fafafa;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Ma galerie de photos hébergées sur GitHub</h1>
+
+  <div class="gallery">
+    <img src="https://raw.githubusercontent.com/ton-nom-utilisateur/nom-du-depot/main/images/photo1.jpg" alt="Photo 1">
+    <img src="https://raw.githubusercontent.com/ton-nom-utilisateur/nom-du-depot/main/images/photo2.jpg" alt="Photo 2">
+    <img src="https://raw.githubusercontent.com/ton-nom-utilisateur/nom-du-depot/main/images/photo3.jpg" alt="Photo 3">
+    <img src="https://raw.githubusercontent.com/ton-nom-utilisateur/nom-du-depot/main/images/photo4.jpg" alt="Photo 4">
+  </div>
+
+</body>
+</html>
